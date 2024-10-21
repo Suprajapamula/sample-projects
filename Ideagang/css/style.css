@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*------------------ Header styles starts------------- */
+.navbar .navbar-nav .nav-item{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar .navbar-nav .nav-item:hover{
+    color: #0f9a47;
+    text-decoration: underline;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.bannerSection{
+    padding-top: 66px;
+    /* background-image: url('../images/banner-bg.png'); */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    overflow: hidden;
+}
+.bannerSection .banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.bannerSection .banner-left h1{
+    margin-bottom: 13px;
+    font-weight: 700;
+    color: #1e2022;
+}
+.bannerSection .banner-container{
+    /* padding: 8rem 0; */
+    padding: 7rem 0;
+    width: 100%;
+}
+.bannerSection .banner-right img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+.bannerSection .banner-left p{
+    font-size: 1rem;
+    color: #677788;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 800px;
+}
+.bannerSection .banner-bottom-section{
+    display: flex;
+    justify-content: center;
+}
+.bannerSection .banner-bottom-section p{
+    max-width: 56rem;
+    color: rgb(86 84 84 );
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.serviesSection .serviceSectionBg{
+   /* background-image: url('../images/blurs-mail-bg.png'); */
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+   width: 100%;
+   object-fit: cover; 
+   /* background-color: #000; */
+   background-color: #fff;
+}
+.serviesSection .serviceSectionBg{
+    border-radius: 20px;
+}
+.serviesSection .serviceSectionLeftBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 40px; */
+    /* padding: 40px 40px 0px; */
+    padding: 20px 20px 20px 40px;
+}
+.serviesSection .serviceSectionRightBlock img{
+    /* height: 500px; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.serviesSection .serviceSectionLeftBlock h3{
+    /* font-weight: 800; */
+    font-weight: 700;
+    font-size: 42px;
+}
+.serviesSection .serviceSectionLeftBlock p{
+    font-size: 16px;
+}
+.serviesSection .serviceSectionRightBlock{
+    height: auto;
+    width: 100%;
+}
+
+#animatedText {
+    font-size: 35px;
+    font-weight: bold;
+    width: max-content;
+    border-bottom: 5px solid rgba(245, 202, 153, .5);
+    color: #0f9a47;
+    height: 58px;
+}
+
+.serviceSectionRightBlock .imgContainer{
+    height: 300px;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+/* Features Section styling */
+.features-section2{
+    font-family: Inter, sans-serif;
+}
+.features-section2 .card{
+    border-width: 0;
+    box-shadow: 0 .375rem 1.5rem 0 rgba(140,152,164,.125);
+    height: 90%;
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+    border-radius: 20px;
+}
+
+.features-section2 .card-text {
+    color: #677788;
+    font-size: 14px;
+}
+.features-section2   .card-title:not(:last-child) {   
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1e2022;
+    margin-top: 0;
+}
+.logo-section{
+    background-color: rgba(247, 250, 255,1) !important;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+    box-shadow: 0 .375rem 1.5rem 0 rgba(140,152,164,.125);
+
+}
+.logo-section img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.card-transition {
+    transition: all .2s ease-in-out;
+}
+
+.card-transition:focus, .card-transition:hover {
+    transform: translateY(-.1875rem) !important;
+}
+
+
+/* Why choose us section styling */
+.why-choose-section{
+    background-color: #fff;
+}
+
+.why-choose-card{
+    width: calc(100% / 5 - 10px) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+.why-choose-card .card-body{
+    text-align: center;
+    padding: 12px;
+    color: #000;
+}
+.why-choose-card>.why-choose-card-img-section{
+    width: 50px;
+    height: auto;
+}
+.why-choose-card>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.why-choose-heading{
+    font-weight: 600;
+    margin-bottom: 58px !important;
+}
+.horizontalLine {
+    border: 0;
+    height: 1px; 
+    background: transparent;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 7rem; 
+  }
+  
+  .horizontalLine::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgb(249, 51, 43, 0.5) 20%, rgb(249, 51, 43, 0.5) 80%, rgba(0, 0, 0, 0.1));
+    transform: translateY(-50%);
+  }
+.serviesSection .serviceSectionRightBlock .imgContainer.smartTvs img{
+    object-fit: contain !important;
+}
+
+.featuresSection{
+    margin-right: 0px;
+}
+
+.featuresHeading{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-section{
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+.footer-section-heading{
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+
+.contact-section{
+    display: flex;
+}
+.get-in-touch-icons-section{
+
+    height: 72px;
+    width: auto;
+
+}
+.get-in-touch-icons-section img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.contact-section>div{
+    justify-content: space-between;
+}
+.get-on-heading{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-bottom-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-logo-section .img-footer{
+    width: 60px;
+    height: auto;
+}
+.footer-logo-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.social-media-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.social-media-section li{
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.social-media-section li a{
+    color: #82e482;
+    border: 1px solid #82e482;
+    border-radius: 50%;
+    padding: 10px;
+}
+.copy-right{
+    white-space: nowrap;
+}
+.featuresSection-mainBlock,
+.productsSection-mainBlock,
+.why-choose-main-block{
+    overflow: hidden;
+}
+.featuresSection .features-section2:nth-child(3n) {
+    padding-right: 0px; 
+}
+
+@media (max-width:768px) {
+    .why-choose-card{
+        width: calc(100% / 3) !important;
+    }
+    .featuresSection {
+        margin: 0px;
+    }
+    .featuresSection .features-section2:nth-child(3n) {
+        padding-right: 15px; 
+    }
+
+}
+@media (max-width:576px){
+    .featuresSection .features-section2:nth-child(3n) {
+        padding-right: 0px;
+    }
+    .featuresSection .features-section2 {
+        padding: 0px;
+    }
+    .serviceSectionRightBlock .imgContainer{
+        padding-right: 15px;
+    }
+    .serviesSection .serviceSectionLeftBlock{
+        padding: 20px !important;
+    }
+    .serviesSection .serviceSectionBg{
+        margin: 0px;
+    }
+    .serviesSection .serviceSectionLeftBlock h3{
+        font-size: 34px;
+    }
+    #animatedText{
+        font-size: 20px;
+        height: 38px;
+        margin-bottom: 10px;
+    }
+    .bannerSection .banner-left{
+        padding-top: 10px;
+    }
+    .bannerSection .banner-left h1 {
+        font-size: 30px;
+    }
+    .features-section2>.card>.row{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .why-choose-cards{
+        justify-content: center;
+    }
+    .why-choose-card{
+        width: calc(100% / 2) !important;
+    }
+    .why-choose-section{
+        justify-content: center;
+    }
+    .get-in-touch-icons-section {
+        width: 60px
+    }
+    .footer-section {
+        padding: 10px 0px;
+    }
+    .why-choose-heading {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .featuresHeading{
+        font-size: 30px;
+    }
+    .bannerSection .banner-container{
+        padding: 4rem 0;
+    }
+    .horizontalLine{
+        padding-bottom: 5rem;
+    }
+    
+}
