@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #000;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* ------header styles starts here------ */
+
+header .logo {
+    height: 100px;
+    transition: height 0.3s ease;
+}
+.scrolled{
+    /* height: 60px !important; */
+}
+.scrolled .logo {
+    height: 50px;
+}
+.logo{
+    height: 110px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.headerSection{
+    overflow: hidden;
+}
+/* .navbar-toggler {
+    position: fixed;
+    right: 0px;
+    top: 47px;
+    right: 10px;
+} */
+.header-top{
+    display: flex;
+    justify-content: end;
+    padding: 10px 40px;
+    gap: 15px;
+    background-color: #000;
+    color: #fff;
+}
+.header-top a{
+    color: #fff;
+    font-size: 12px;
+}
+.header-top>div:hover{
+    opacity: 0.7;
+}
+.header-top>div:hover a{
+    text-decoration: unset;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #00000099;
+}
+/* .navbar-light .navbar-brand.small-device-logo{
+    display: none !important;
+} */
+.navbar-light .navbar-brand.large-device-logo{
+    display: block;
+}
+section{
+    padding-top: 171px;
+}
+/* ------header styles Ends here------ */
+/* ---Intro section starts Here-------- */
+.intro{
+    background-color: #000;
+    padding-bottom: 20px;
+}
+.intro .introBlock{
+    color: #fff;
+    /* padding: 15px 0px; */
+    text-align: center;
+    overflow: hidden;
+}
+.section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin: 15px 0 30px;
+}
+/* .trendingGallerySectionBlock,
+.introSectionBlock{
+    border-bottom: 2px  #fff dashed;
+} */
+.trendingGallerySectionBlock .house-view-gallarySection{
+    overflow: hidden;
+}
+.trendingGallerySectionBlock .img-container{
+    overflow: hidden;
+}
+.sectionInternalBlock{
+    overflow: hidden;
+}
+/* ---Intro section Ends Here-------- */
+
+/* -------Gallery1 Section starts Here---------  */
+.trendingGallerySection{
+    background: #000;
+    padding-bottom: 20px;
+}
+.trendingGallerySection p{
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 16px;
+    text-align: left;
+}
+.trendingGallerySection img{
+    object-fit: contain;
+}
+
+/* -----Footer Styles--------- */
+.footerSectionBlock{
+    background: #222;
+    margin-top: 20px;
+}
+.footerSectionBlock .footerBlock{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footerSectionBlock .footerBlock .socialMedia li{
+    background: #fff;
+    padding: 5px 5px 5px 10px;
+    max-width: 90%;
+}
+.footerSectionBlock .footerBlock .socialMedia li:hover{
+    background-color: #be3f2b;
+}
+.footerSectionBlock .footerBlock .socialMedia li:hover a{
+    color: #fff;
+}
+.footerSectionBlock .footerBlock li a{
+    color: #000;
+    font-weight: 600;
+}
+.footerSectionBlock .footerBlock li a:hover{
+    text-decoration: unset;
+    color: unset;
+}
+.footerBlock h4{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.timingsSection span,
+.timingsSection p{
+    color: #fff;
+}
+
+.footerBlock .timingsSection p{
+    min-width: 160px;
+}
+.footerBlock .contactSection a{
+    color: #fff;
+}
+.footerBlock .contactSection a:hover{
+    color: #fff;
+    text-decoration: unset;
+}
+.footerBlock .addressSection address{
+    color: #fff;
+}
+.footerBlock .contactSection {
+    padding-left: 20px !important;
+}
+.section-imgs-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-imgs-block img {
+    height: 400px;
+    width: auto;
+}
+.contact-info-block {
+    color: #fff;
+}
+.contact-info-block .horizontal-fileds {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.seperator {
+    border-bottom: 2px dashed #fff;
+    margin: 30px 0;
+}
+.contact-info-block h4{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.contact-info-block a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-info-block p {
+    padding: 0;
+    min-width: 165px;
+}
+.custom-made-service,
+.house-view-gallarySection,
+.img-container{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.custom-made-service .custom-made-service-img,
+.house-view-gallarySection .portfolioImg,
+.img-container img{
+    transition: transform 0.5s ease;
+    display: block;
+}
+.custom-made-service .custom-made-service-img:hover,
+.house-view-gallarySection .portfolioImg:hover,
+.img-container:hover img {
+    transform: scale(1.1) !important;
+}
+
+@media (max-width: 992px) {
+
+    header .logo {
+        height: 62px;
+    }
+    section {
+        padding-top: 135px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+    .section-title {
+        font-size: 25px;
+        margin: 0 0 15px;
+    }
+    .contact-info-block h4 {
+        font-size: 20px;
+    }
+    .trendingGallerySection p {
+        font-size: 14px;
+    }
+    .navbar-section{
+        height: auto;
+    }
+    .footerBlock .contactSection {
+        padding-left: 0 !important;
+    }
+    .section-imgs-block img {
+        width: 100%;
+        height: auto;
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-section{
+        height: auto;
+    }
+    .trendingGallerySection img{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .header-top {
+        padding: 15px;
+        justify-content: space-between;
+    }
+    .footerBlock .contactSection {
+        padding-left: 0px !important;
+    }
+    section{
+        padding-top: 112px;
+    }
+}
