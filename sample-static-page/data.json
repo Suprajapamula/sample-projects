@@ -1,0 +1,147 @@
+[
+	{
+		"name": "Jessica Taylor",
+		"gender": "Female",
+		"age": 28,
+		"profile_picture": "https://fedskillstest.ct.digital/4.png",
+		"date_of_birth": "August 23,1996",
+		"phone_number": "(415) 555-1234",
+		"emergency_contact": "(415) 555-5678",
+		"insurance_type": "Sunrise Health Assurance",
+		"diagnosis_history": [
+			
+            {
+                "month": "Oct",
+				"year": 2023,
+				"blood_pressure": {
+					"systolic": {
+						"value": 120,
+						"levels": "Higher than Average"
+					},
+					"diastolic": {
+						"value": 110,
+						"levels": "Lower than Average"
+					}
+				}
+            },
+			{
+                "month": "Nov",
+				"year": 2023,
+				"blood_pressure": {
+					"systolic": {
+						"value": 118,
+						"levels": "Higher than Average"
+					},
+					"diastolic": {
+						"value": 62,
+						"levels": "Lower than Average"
+					}
+				}
+            },
+			{
+                "month": "Dec",
+				"year": 2023,
+				"blood_pressure": {
+					"systolic": {
+						"value": 160,
+						"levels": "Higher than Average"
+					},
+					"diastolic": {
+						"value": 110,
+						"levels": "Lower than Average"
+					}
+				}
+            },
+			{
+                "month": "Jan",
+				"year": 2024,
+				"blood_pressure": {
+					"systolic": {
+						"value": 115,
+						"levels": "Higher than Average"
+					},
+					"diastolic": {
+						"value": 95,
+						"levels": "Lower than Average"
+					}
+				}
+            },
+			{
+                "month": "Feb",
+				"year": 2024,
+				"blood_pressure": {
+					"systolic": {
+						"value": 145,
+						"levels": "Higher than Average"
+					},
+					"diastolic": {
+						"value": 75,
+						"levels": "Lower than Average"
+					}
+				}
+            },
+			{
+				"month": "March",
+				"year": 2024,
+				"blood_pressure": {
+					"systolic": {
+						"value": 160,
+						"levels": "Higher than Average"
+					},
+					"diastolic": {
+						"value": 78,
+						"levels": "Lower than Average"
+					}
+				},
+				"heart_rate": {
+					"value": 78,
+					"levels": "Lower than Average"
+				},
+				"respiratory_rate": {
+					"value": 20,
+					"levels": "Normal"
+				},
+				"temperature": {
+					"value": 98.6,
+					"levels": "Normal"
+				}
+			}
+		],
+		"diagnostic_list": [
+			{
+				"name": "Hypertension",
+				"description": "Chronic high blood pressure",
+				"status": "Under Observation"
+			},
+			{
+				"name": "Type 2 Diabetics",
+				"description": "Insuline resistance and evaluated blood sugar",
+				"status": "Cured"
+			},
+			{
+				"name": "Asthma",
+				"description": "Recurrent episodes of bronchial constriction",
+				"status": "Inactive"
+			},
+			{
+				"name": "Osteoarthritis",
+				"description": "Degenerative Joint disease",
+				"status": "Untreated"
+			},
+			{
+				"name": "Allergic Rhinites",
+				"description": "seasonal allergies causing nasal congestion",
+				"status": "Active"
+			}
+            
+			
+		],
+		"lab_results": [
+			"Blood Tests",
+			"CT Scans",
+			"Radiology Reports",
+			"X-Rays",
+			"Urine Test"
+		]
+	}
+]
