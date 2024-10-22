@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Inter", sans-serif; */
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #333;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*------------------ Header styles starts------------- */
+header{
+font-family:    "Neue Haas Grotesk", sans-serif;
+}
+.navbar .navbar-nav .nav-item {
+    color: rgba(255, 255, 255, .5);
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-item.active,.navbar .navbar-nav .nav-item.active:hover {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    color: rgba( 246, 233, 33, 1);
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+/*------------------ Header styles ends------------- */
+
+
+.main-content{
+    padding-top: 56px;
+}
+.entrepreneur-challenges-section,.service-framework-section{
+    background: #000;
+    padding-top: 20px;
+    color: #f5f5f5;
+}
+.challenges-heading-section{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.section-heading{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    line-height: 1.15;
+    font-weight: 600;
+   
+}
+
+.entrepreneur-challenge {
+    border: none;
+    border-radius: 0;
+    background-color: #000;
+    color: #f5f5f5;
+   
+}
+.entrepreneur-challenge-img-container{
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.entrepreneur-challenge img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+.entrepreneur-challenge .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+.entrepreneur-challenge .card-title {
+   font-size: 22px;
+ text-align: center;
+}
+.entrepreneur-challenge .card-text {
+    font-size: 16px;
+  text-align: center;
+ }
+
+
+
+
+ .consulting-services-section{
+    background: #000;
+    /* position: relative; */
+
+ }
+ 
+ .consulting-service{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 300px;
+    border: none;
+    background-position: center !important;
+    border-radius: 15px;
+    margin-right: 15px;
+    max-width: calc(100% / 3 - 15px );
+    margin-bottom: 15px;
+    color: #f5f5f5;
+    position: relative;
+    flex-wrap: nowrap   288;
+ }
+ .consulting-service:last-child{
+    margin-right: 0;
+ }
+.consulting-service1{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/consulting1.png');
+
+}
+.consulting-service2{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/consulting2.png');
+
+}
+.consulting-service3{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/consulting3.png');
+
+
+}
+
+
+.feature-service1{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/feature1.png');
+
+}
+.feature-service2{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/feature2.jpg');
+
+}
+.feature-service3{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/feature3.jpg');
+
+}
+.feature-service4{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/feature4.png');
+
+}
+.feature-service5{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/feature5.png');
+
+}
+.consulting-services-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 22px;
+}
+.consulting-service-heading{
+    font-weight: 600;
+    font-size: 26px;
+    color: #f5f5f5;
+}
+.consulting-services-content .card-text{
+    font-size: 16px;
+    /* line-height: 1.5; */
+
+}
+
+.tik-mark-section{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(246, 233, 33, 1);
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -16px;
+    left: 45%;
+    color: #000;
+
+}
+.tik-mark-section i{
+    font-size: 16px;
+}
+.service-framework-content-section p {
+    max-width: 55%;
+}
+.service-framework-heading-section h3{
+    padding: 8px;
+    background-color: rgba(246, 233, 33, 1);
+    color: #100f0f;
+    font-weight: 600;
+    transition:     background-color 0.5s ease;
+    border-radius: 5px;
+}
+.service-framework-heading-section h3{
+    transition: width 5s ease;
+}
+
+.feature-body {
+    justify-content: flex-end !important;
+    padding: 10px;
+}
+
+/* .frq-asked-quations-section{
+    color: #f5f5f5;
+    background-color: #000;
+} */
+.accordians-section .card-body{
+    margin-left: 170px;
+}
+
+
+.feature-heading{
+    font-size: 30px;
+    margin-bottom: 36px;
+
+}
+
+.challenges-heading svg{
+    position: absolute;
+    top: -9px;
+    width: 195px;
+    left: 177px;
+    height: 70px;
+}
+
+
+.consulting-services-container{
+    max-width: 100%;  /* Adjust the width as needed */
+  overflow-x: scroll;  /* Enable horizontal scrolling */
+  scrollbar-width: none;  /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
+}
+.consulting-services-container::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar in Chrome, Safari, and other WebKit browsers */
+  }
+
+  .shedule-btn-section button{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 40px;
+  }
+/* -------------------- */
+.accordian-header{
+    background-color: #fff;
+    border: none;
+    padding: 2.5rem;
+}
+.accordian-count{
+    color:  rgba(246,233,3, 1);
+    font-size: 4.5rem;
+    font-weight:500;
+}
+.accordion .card{
+    border: none;
+    border-radius: 1rem !important;
+}
+.accordians-section{
+    padding-top: 20px;
+}
+.accordion .accordian-heading{
+    font-weight: 700;
+    font-size: 30px;
+}
+.accordian-header ul li{
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* .accordian-header ul{
+    padding-left: 17px;
+} */
+.accordian-count span{
+    position: relative;
+    top: -22px;
+}
+.details-section a{
+    color: #1D1D1F;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.details-section a:hover{
+    text-decoration: unset;
+}
+.details-section i{
+    background: rgba(245,245,245, 1);
+    border-radius: 50%;
+    padding: 6px;
+    height: 30px;
+
+    min-width: 28px;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+}
+.details-section span{
+    margin-right: 5px;
+}
+.details-section i.cross{
+    transform: rotate(45deg);
+    transition: all 1s;
+}
+.accordion .hyphen{
+    font-weight: 900;
+    padding-right: 20px;
+}
+/* ------------------------ */
+
+
+/* --------Business Journey styling starts ------------ */
+.businessJourney h1{
+    color: #F5F5F5;
+    font-size: 28px;
+  }
+  .business-journey-section{
+      background-color: #1D1D1F;
+  }
+  .business-journey-section .businessJourneyAccordian .card{
+      background-color: #1D1D1F;
+  }
+  .business-journey-section .businessJourneyAccordian .card .card-header h2{
+      color: #F5F5F5;
+      font-size: 36px;
+      font-weight: 600;
+  }
+  .business-journey-section .businessJourneyAccordian .card .card-body{
+     color: #F5F5F5;
+     padding-left: 12% !important;
+  }
+  .business-journey-section .businessJourneyAccordian .card.clicked{
+     background-color:#313131 ;
+  }
+  .business-journey-section .businessJourneyAccordian .card.clicked i{
+      background-color: rgb(255,255,255,1)!important;
+      transform: rotate(45deg);
+      transition: all .5s;
+  }
+  .business-journey-section .businessJourneyAccordian .card .card-header i{
+      background: rgba(246,233,3, 1);
+      border-radius: 50%;
+      height: 40px;
+      min-width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      transition: all .5s;
+  }
+  .business-journey-section .businessJourneyAccordian .card .card-header{
+      border-bottom: 3px solid rgba(245,245,245, 0.1) ;
+      padding-bottom: 26px;
+  }
+  .business-journey-section .businessJourneyAccordian .card.clicked .card-header{
+      border-bottom: none;
+  }
+  
+  /* --------Business Journey styling Ends ------------ */
+
+
+/* -------footer styles starts---- */
+
+
+/* --------------------Footer styling start-------------- */
+.footer-section{
+    background-color: #1D1D1F;
+    color: #fff;
+ }
+ .footer-section .container{
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+ .footer-section .footer-left-content p{
+     color: #F5F5F5B3;
+     margin-bottom: 2.5rem;
+     font-size: 1rem;
+     font-weight: 500;
+ }
+ .footer-section .footer-left-content h3{
+     font-size: 34px;
+     margin-bottom: 1rem;
+     font-weight: 700;
+ }
+ .footer-left-content a div{
+     background: #313131;
+     width: fit-content;
+     border-radius: 30px;
+     display: flex;
+     align-items: center;
+     padding: 4px 22px 4px 4px;
+ }
+ .footer-left-content a div i{
+     background-color: #F6E924;
+     color: #1D1D1F;
+     padding: 6px;
+     border-radius: 50%;
+     height: 40px;
+     min-width: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 5px;
+     font-size: 23px;
+     transition: min-width .5s;
+ }
+ .footer-left-content a div:hover i{
+     background-color: #fff;
+     min-width: 50px;
+     border-radius: 40px;
+     transition: min-width .5s;
+ }
+ .footer-left-content a div span{
+     font-size: 20px;
+     font-weight: 600;
+ }
+ .footer-left-content a:hover,
+ .footer-left-content a{
+     color: #fff;
+     text-decoration: unset;
+ }
+ .footer-menus a{
+     color: #fff;
+     font-weight: 500;
+     font-size: 20px;
+ 
+ }
+ .footer-menus a:hover{
+     color: rgba(246,233,3, 1);
+     text-decoration: unset;
+ }
+ .social-media i{
+     color: red;
+     background: #313131;
+     padding: 5px;
+     border-radius: 50%;
+     height: 45px;
+     width: 45px;
+     display: flex;
+     align-items: center;
+     font-size: 22px;
+     justify-content: center;
+ }
+ .social-media i:hover{
+     transform: rotate(20deg);
+     transition: transform 0.5s;
+ }
+ .social-media .spotify{
+     color: #1DB954;
+ }
+ .social-media .music{
+     color: #FF1493;
+ }
+ .social-media .insta{
+     color: #E1306C;
+ }
+ .social-media .twitter{
+     color: #1DA1F2;
+ }
+ .copy-right-text{
+     color: #FFFFFF66;
+     text-align:right;
+     font-size: 13px;
+ }
+ /* --------------------Footer styling end-------------- */
+
+
+
+/* --------------animation styles start------- */
+/******* 1st svg animation start  ********/
+.svg_underline--ic2 path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: stroke-dashoffset 2s ease-in-out;
+}
+
+.svg_underline--ic2.scroll-draw path {
+    stroke-dashoffset: 0;
+}
+
+/******* 1st svg animation end  ********/
+
+
+
+
+
+
+
+/******* 2nd svg animation start  ********/
+
+.circled-word_svg--ic2-pe0 path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: stroke-dashoffset 2s ease-in-out;
+}
+
+.circled-word_svg--ic2-pe0.scroll-draw path {
+    stroke-dashoffset: 0;
+}
+
+/******* 2nd svg animation end  ********/
+
+
+
+
+
+
+
+/******* 3rd svg animation start  ********/
+
+h1.highlight-text {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+
+h1.highlight-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    transition: left 1s ease-in-out;
+    z-index: -1;
+}
+
+h1.highlight-text.animate-bg::before {
+    left: 0;
+}
+
+/******* 3rd svg animation end  ********/
+
+
+
+
+
+
+
+/******* 4th & 5th svg animation start  ********/
+
+.svg_arrow--ic2 .path {
+    stroke-dasharray: 1000;
+    /* Adjust this value based on the length of your path */
+    stroke-dashoffset: 1000;
+    transition: stroke-dashoffset 3s ease;
+}
+
+.svg_arrow--ic2 .path.animate {
+    stroke-dashoffset: 0;
+}
+
+.svg_arrow--ic2 .path.reverse {
+    stroke-dashoffset: 1000;
+}
+
+/******* 4th & 5th svg animation end  ********/
+
+
+
+
+
+
+
+
+
+
+
+/******* 6th svg animation start  ********/
+.highlight--em0-1-bc0-bg0 {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+h3.highlight_text {
+    position: relative;
+    color: #000;
+    font-size: 40px;
+    display: flex;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.highlight--em0-1-bc0-bg0 .word {
+    margin-right: 8px;
+    display: flex;
+}
+
+.highlight--em0-1-bc0-bg0 .word:last-child {
+    margin-right: 0;
+}
+
+.highlight--em0-1-bc0-bg0 .char {
+    display: inline-block;
+    transform: translateY(100%);
+    opacity: 0;
+    padding: 0 1px;
+    transition: transform 0.05s ease, opacity 0.5s ease;
+}
+
+.highlight--em0-1-bc0-bg0.animate .char {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.highlight--em0-1-bc0-bg0 .hightlight_bg--ca1-bg1 {
+    background-color: yellow;
+    width: 0;
+    height: 50px;
+    position: absolute;
+    transition: width 0.5s ease;
+}
+
+.highlight--em0-1-bc0-bg0.animate .hightlight_bg--ca1-bg1 {
+    width: 100%;
+}
+
+/******* 6th svg animation end  ********/
+
+
+
+
+
+
+
+
+
+
+
+
+/******* 7th svg animation start  ********/
+
+.svg_guarantee--ic2 svg path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: stroke-dashoffset 2s ease;
+}
+
+.svg_guarantee--ic2.animate svg path {
+    stroke-dashoffset: 0;
+}
+
+/******* 7th svg animation end  ********/
+/* --------------animation styles end------- */
+
+ @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        margin-left: 165px;
+    }
+}
+
+
+@media(max-width:991px){
+    .accordians-section .card-body{
+        margin-left: unset;
+    }
+}
+
+
+@media (max-width:768px){
+    .consulting-service{
+        max-width: calc(100% / 1 - 15px );
+        margin-bottom: 35px;
+        margin-right: 0;
+        justify-content: center;
+
+    }
+    .consulting-services-content{
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .social-media{
+        order: 1;
+        align-items: flex-end !important;
+    }
+    .footer-left-content{
+        margin-bottom: 20px;
+    }
+    .copy-right-text {
+        text-align:left;
+}
+
+
+
+}
+
+@media (max-width:576px){
+    .challenges-heading-section{
+        max-width: 100%;
+        margin: 0;;
+    }
+    .section-heading{
+        font-size: 1.2rem;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .service-framework-content-section {
+        max-width: 100%;
+    }
+    .service-framework-content-section p {
+        max-width: 100%;
+    }
+
+    .accordian-header ul {
+        padding-left: 0;
+    }
+
+    .accordion .accordian-heading {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .accordion>.card>.card-header {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
