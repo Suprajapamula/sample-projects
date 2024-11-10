@@ -1,0 +1,47 @@
+.box{
+    height: 70px;
+    width: calc((100% / 3) - 5px);
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    color: chocolate;
+}
+.container-sec{
+    background-color: blanchedalmond;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-bottom: 26px;
+    font-weight: bold;
+    color: brown;
+}
+.game-boxes{
+    display: flex;
+    gap: 5px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+.winner{
+    position: absolute;
+    font-size: 29px;
+    color: green;
+    font-family: serif;
+}
+.winnerText-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    min-height: 40px;
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+}
